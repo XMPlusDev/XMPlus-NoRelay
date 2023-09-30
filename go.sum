@@ -868,7 +868,7 @@ github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2/go.mod h1:UETIi67q
 github.com/xtls/reality v0.0.0-20230828171259-e426190d57f6 h1:T+YCYGfFdzyaKTDCdZn/hEiKvsw6yUfd+e4hze0rCUw=
 github.com/xtls/reality v0.0.0-20230828171259-e426190d57f6/go.mod h1:rkuAY1S9F8eI8gDiPDYvACE8e2uwkyg8qoOTuwWov7Y=
 github.com/xmplusdev/xray-core v1.8.4 h1:EKWxNC+dN7rzEjs7GtR0R03iKAeDPY0Crs/1KCK83/4=
-github.com/xmplusdev/xray-core v1.8.4/go.mod h1:Itr4ygEHuNB8u6waYsRXPsCXbg+banv/anxImmTN+Y8=
+github.com/xmplusdev/xray-core v1.8.4/go.mod h1:uvRi1LcxgI+NCoe3IW++UiySwt7A0mEYPSY9+R8DCOw=
 github.com/yandex-cloud/go-genproto v0.0.0-20220805142335-27b56ddae16f h1:cG+ehPRJSlqljSufLf1KXeXpUd1dLNjnzA18mZcB/O0=
 github.com/yandex-cloud/go-genproto v0.0.0-20220805142335-27b56ddae16f/go.mod h1:HEUYX/p8966tMUHHT+TsS0hF/Ca/NYwqprC5WXSDMfE=
 github.com/yandex-cloud/go-sdk v0.0.0-20220805164847-cf028e604997 h1:2wzke3JH7OtN20WsNDZx2VH/TCmsbqtDEbXzjF+i05E=
