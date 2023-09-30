@@ -1,6 +1,3 @@
-# XMPlus
-XMPlus v2.0 backend
-
 
 #### Config directory
 ```
@@ -10,56 +7,6 @@ cd /etc/XMPlus
 ### Onclick Install
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/XMPlusDev/XMPlus-NoRelay/install/install.sh)
-```
-
-### /etc/XMPlus/config.yml
-```
-Log:
-  Level: warning # Log level: none, error, warning, info, debug 
-  AccessPath: # /etc/XMPlus/access.Log
-  ErrorPath: # /etc/XMPlus/error.log
-DnsConfigPath:  #/etc/XMPlus/dns.json
-RouteConfigPath: # /etc/XMPlus/route.json
-InboundConfigPath: # /etc/XMPlus/inbound.json
-OutboundConfigPath: # /etc/XMPlus/outbound.json
-ConnectionConfig:
-  Handshake: 8 
-  ConnIdle: 300 
-  UplinkOnly: 0 
-  DownlinkOnly: 0 
-  BufferSize: 64
-Nodes:
-  -
-    ApiConfig:
-      ApiHost: "https://www.xyz.com"
-      ApiKey: "123"
-      NodeID: 1
-      Timeout: 30 
-      RuleListPath: # /etc/XMPlus/rulelist Path to local rulelist file
-    ControllerConfig:
-      EnableDNS: false # Use custom DNS config, Please ensure that you set the dns.json well
-      DNSStrategy: AsIs # AsIs, UseIP, UseIPv4, UseIPv6
-      CertConfig:
-        Email: author@xmplus.dev                    # Required when Cert Mode is not none
-        CertFile: /etc/XMPlus/node1.xmplus.dev.crt  # Required when Cert Mode is file
-        KeyFile: /etc/XMPlus/node1.xmplus.dev.key   # Required when Cert Mode is file
-        Provider: cloudflare                        # Required when Cert Mode is dns
-        CertEnv:                                    # Required when Cert Mode is dns
-          CLOUDFLARE_EMAIL:                         # Required when Cert Mode is dns
-          CLOUDFLARE_API_KEY:                       # Required when Cert Mode is dns
-      EnableFallback: false # Only support for Trojan and Vless
-      FallBackConfigs:  # Support multiple fallbacks
-        - SNI: # TLS SNI(Server Name Indication), Empty for any
-          Alpn: # Alpn, Empty for any
-          Path: # HTTP PATH, Empty for any
-          Dest: 80 # Required, Destination of fallback, check https://xtls.github.io/config/features/fallback.html for details.
-          ProxyProtocolVer: 0 # Send PROXY protocol version, 0 for disable
-      RealityPrivateKey: ""   # Reality Private Key       
-      EnableFragment: false 
-      FragmentConfigs:
-        Packets: "tlshello" # TLS Hello Fragmentation (into multiple handshake messages)
-        Length: "100-200"   # minLength to maxLength
-        Interval: "10-20"   # minInterval to maxInterval   
 ```
 
 ## XMPlus Panel Server configuration
@@ -157,7 +104,7 @@ Nodes:
   "serverName": "xmplus.dev",
   "rejectUnknownSni": true,
   "allowInsecure": false,
-  "fingerprint": "chrome"
+  "fingerprint": "chrome",
 }
 ```
 #### REALITY
