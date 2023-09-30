@@ -10,11 +10,11 @@ import (
 
 	"github.com/imdario/mergo"
 	"github.com/r3labs/diff/v2"
-	"github.com/xtls/xray-core/app/proxyman"
-	"github.com/xtls/xray-core/app/stats"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/infra/conf"
+	"github.com/xmplusdev/xray-core/app/proxyman"
+	"github.com/xmplusdev/xray-core/app/stats"
+	"github.com/xmplusdev/xray-core/common/serial"
+	"github.com/xmplusdev/xray-core/core"
+	"github.com/xmplusdev/xray-core/infra/conf"
 
 	"github.com/XMPlusDev/XMPlus-NoRelay/api"
 	"github.com/XMPlusDev/XMPlus-NoRelay/api/xmplus"

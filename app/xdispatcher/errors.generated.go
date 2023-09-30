@@ -1,6 +1,6 @@
 package xdispatcher 
 
-import "github.com/xtls/xray-core/common/errors"
+import "github.com/xmplusdev/xray-core/common/errors"
 
 func newError(values ...interface{}) *errors.Error {
 	return errors.New(values...)

@@ -11,9 +11,9 @@ import (
 
 	"github.com/sagernet/sing-shadowsocks/shadowaead_2022"
 	C "github.com/sagernet/sing/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/infra/conf"
+	"github.com/xmplusdev/xray-core/common/net"
+	"github.com/xmplusdev/xray-core/core"
+	"github.com/xmplusdev/xray-core/infra/conf"
 	"github.com/XMPlusDev/XMPlus-NoRelay/api"
 	"github.com/XMPlusDev/XMPlus-NoRelay/utility/mylego"
 )

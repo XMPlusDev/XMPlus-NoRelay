@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/infra/conf"
+	"github.com/xmplusdev/xray-core/common/net"
+	"github.com/xmplusdev/xray-core/core"
+	"github.com/xmplusdev/xray-core/infra/conf"
 	"github.com/XMPlusDev/XMPlus-NoRelay/api"
 )
 

@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/inbound"
-	"github.com/xtls/xray-core/features/outbound"
-	"github.com/xtls/xray-core/features/stats"
-	"github.com/xtls/xray-core/proxy"
+	"github.com/xmplusdev/xray-core/common/protocol"
+	"github.com/xmplusdev/xray-core/core"
+	"github.com/xmplusdev/xray-core/features/inbound"
+	"github.com/xmplusdev/xray-core/features/outbound"
+	"github.com/xmplusdev/xray-core/features/stats"
+	"github.com/xmplusdev/xray-core/proxy"
 	"github.com/XMPlusDev/XMPlus-NoRelay/api"
 )
 
