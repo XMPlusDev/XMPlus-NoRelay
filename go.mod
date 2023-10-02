@@ -7,7 +7,7 @@ require (
 	github.com/deckarep/golang-set v1.8.0
 	github.com/fsnotify/fsnotify v1.6.0
 	github.com/go-acme/lego/v4 v4.14.2
-	github.com/go-resty/resty/v2 v2.7.0
+	github.com/go-resty/resty/v2 v2.9.1
 	github.com/imdario/mergo v0.3.16
 	github.com/r3labs/diff/v2 v2.15.1
 	github.com/sagernet/sing v0.2.11
